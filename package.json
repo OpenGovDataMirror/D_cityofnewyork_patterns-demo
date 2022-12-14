@@ -1,0 +1,19 @@
+{
+  "name": "patterns-demo",
+  "version": "0.1.0",
+  "description": "This project was created using the @nycopportunity/pttrn CLI installation guide.",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development cross-env PORT=7000 concurrently \"pttrn -w\" \"pttrn serve -w\" -p \"none\"",
+    "version": "pttrn && git add .",
+    "prepublishOnly": "git push && git push --tags",
+    "publish": "cross-env NODE_ENV=production pttrn publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfNewYork/patterns-demo.git"
+  },
+  "homepage": "https://github.com/CityOfNewYork/patterns-demo#readme",
+  "dependencies": {
+    "@nycopportunity/pttrn": "^1.0.0"
+  }
+}

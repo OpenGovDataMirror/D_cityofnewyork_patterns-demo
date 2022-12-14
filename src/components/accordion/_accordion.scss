@@ -1,0 +1,13 @@
+/**
+ * Accordion
+ */
+
+// Dependencies
+@use 'config/tokens' as *;
+// @use 'config/accordion';
+
+// Declarations
+.c-accordion {
+  background-color: red;
+  padding: 24px;
+}
